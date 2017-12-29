@@ -4,6 +4,7 @@
 - Steer clear of divisive politics.
 - Avoid nihilism in all capacities.
 - Identity is the root of all suffering. Don't become to attached to who you are right now, or you will not be able to become who you need to be.
+- Writing is the best way to distill ideas.
 
 # Friendship
 - Make conversation with everyone.
