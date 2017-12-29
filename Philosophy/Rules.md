@@ -18,4 +18,9 @@
 - Know a few languages well and you can join the conversation.
 - All technologists are both designers and developers. 
 
+# Religion
+- There are moral truths and a good person seeks to find these.
+- God is an antidote to chaos.
+
+
 
