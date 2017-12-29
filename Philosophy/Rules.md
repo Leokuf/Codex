@@ -1,7 +1,9 @@
 # Life
-- Simplify all forms of chaos. Don't knowingly cause chaos. 
+- Find ways to simplify chaos in your life.
 - Detach only as much as necessary.
-- Steer clear of politics.
+- Steer clear of divisive politics.
+- Avoid nihilism in all capacities.
+- Identity is the root of all suffering. Don't become to attached to who you are right now, or you will not be able to become who you need to be.
 
 # Friendship
 - Make conversation with everyone.
@@ -14,4 +16,5 @@
 - Coding languages are for building things. The more things you build, the more they will make sense.
 - Know a few languages well and you can join the conversation.
 - All technologists are both designers and developers. 
+
 
