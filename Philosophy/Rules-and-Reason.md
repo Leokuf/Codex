@@ -5,6 +5,8 @@
 - Identity is the root of all suffering. Don't become to attached to who you are right now, or you will not be able to become who you need to be.
 - Writing is the best way to distill ideas.
 - Moderation is key to everything but moderation is impossible. Seek to avoid extremes instead of seeking moderation.
+- Idolize your elders and critique your peers.
+- With age comes wisdom.
 
 # Friendship
 - Make conversation with everyone.
