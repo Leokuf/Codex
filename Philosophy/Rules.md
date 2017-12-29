@@ -17,7 +17,8 @@
 # Society
 - Elevate the stories of the exiles.
 - Be suspicious of people with many followers and few friends.
-- Do not use social movements to gain status.
+- Don't use social movements to gain status.
+- Social circles based on trends (ex: music) tend to self-destruct.
 
 # Relationships
 - Avoid polyamory and any movements of this sort.
