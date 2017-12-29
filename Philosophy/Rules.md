@@ -10,6 +10,9 @@
 - Make conversation with everyone.
 - Don't categorize or overthink friendship.
 - If someone contacts you, always respond.
+
+# Society
+- Elevate the stories of the exiles.
 - Be suspicious of people with many followers and few friends.
 
 # Technology 
