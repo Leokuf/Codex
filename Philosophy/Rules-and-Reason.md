@@ -14,7 +14,7 @@
 - If someone contacts you, always respond.
 - Friends create meaning in life. Every interaction is permanant.
 - Make sober time with friends to discuss difficult topics.
-- It is nearly impossible to have more than five good friends at any time.
+- It's nearly impossible to have more than five good friends at any time.
 
 # Society
 - Elevate the stories of the exiles.
