@@ -11,14 +11,17 @@
 - Make conversation with everyone.
 - Don't categorize or overthink friendship.
 - If someone contacts you, always respond.
-- Friends create meaning in life.
+- Friends create meaning in life. Every interaction is permanant.
 - Make sober time with friends to discuss difficult topics.
 
 # Society
 - Elevate the stories of the exiles.
 - Be suspicious of people with many followers and few friends.
 - Do not use social movements to gain status.
-- 
+
+# Relationships
+- Avoid polyamory and any movements of this sort.
+- Don't turn your partner into your maid or butler.
 
 # Technology 
 - Computers are difficult and struggling with technology means you're learning.
