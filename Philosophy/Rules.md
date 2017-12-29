@@ -5,15 +5,20 @@
 - Avoid nihilism in all capacities.
 - Identity is the root of all suffering. Don't become to attached to who you are right now, or you will not be able to become who you need to be.
 - Writing is the best way to distill ideas.
+- Moderation is key to everything but moderation is impossible. Seek to avoid extremes instead of seeking moderation.
 
 # Friendship
 - Make conversation with everyone.
 - Don't categorize or overthink friendship.
 - If someone contacts you, always respond.
+- Friends create meaning in life.
+- Make sober time with friends to discuss difficult topics.
 
 # Society
 - Elevate the stories of the exiles.
 - Be suspicious of people with many followers and few friends.
+- Do not use social movements to gain status.
+- 
 
 # Technology 
 - Computers are difficult and struggling with technology means you're learning.
