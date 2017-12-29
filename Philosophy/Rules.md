@@ -22,6 +22,9 @@
 # Relationships
 - Avoid polyamory and any movements of this sort.
 - Don't turn your partner into your maid or butler.
+- Support your partner in all forms of growth.
+- Make time for yourself.
+- Don't idealize a future. Be there in the present.
 
 # Technology 
 - Computers are difficult and struggling with technology means you're learning.
