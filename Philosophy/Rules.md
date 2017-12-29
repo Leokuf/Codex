@@ -28,6 +28,7 @@
 - Coding languages are for building things. The more things you build, the more they will make sense.
 - Know a few languages well and you can join the conversation.
 - All technologists are both designers and developers. 
+- Social media is a form of gambling. Treat it with caution.
 
 # Religion
 - There are moral truths and a good person seeks to find these.
