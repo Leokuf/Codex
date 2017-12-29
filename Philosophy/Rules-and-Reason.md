@@ -20,6 +20,7 @@
 - Be suspicious of people with many followers and few friends.
 - Don't use social movements to gain status.
 - Social circles based on trends (ex: music) tend to self-destruct.
+- When someone strikes you, turn the other cheek. Resisting evil creates more of it.
 
 # Relationships
 - Avoid polyamory and any movements of this sort.
