@@ -1,3 +1,4 @@
+# Branches of Philosophy
 - *Aesthetics* is a branch of philosophy that explores the nature of art, beauty, and taste, with the creation and appreciation of beauty.
 - *Epistemology* is a branch of philosophy that investigates the origin, nature, methods, and limits of human knowledge.
 - *Ethics / Moral Philosophy* is a branch of philosophy that involves systematizing, defending, and recommending concepts of right and wrong conduct.
