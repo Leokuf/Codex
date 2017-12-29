@@ -14,6 +14,7 @@
 - If someone contacts you, always respond.
 - Friends create meaning in life. Every interaction is permanant.
 - Make sober time with friends to discuss difficult topics.
+- It is nearly impossible to have more than five good friends.
 
 # Society
 - Elevate the stories of the exiles.
@@ -21,6 +22,7 @@
 - Don't use social movements to gain status.
 - Social circles based on trends (ex: music) tend to self-destruct.
 - When someone strikes you, turn the other cheek. Resisting evil creates more of it.
+- Sophists try to tell you life is easy if you follow their path. Life is never easy.
 
 # Relationships
 - Avoid polyamory and any movements of this sort.
