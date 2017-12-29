@@ -43,5 +43,9 @@
 - Athiesm is a temporary state, similar to nihilism.
 - Avoid nihilism by reading popular nihilists and forming critiques.
 
-
+# Work
+- Tracking time makes studying and work more enjoyable. Work in ~45 minute segments.
+- Develop new skills at night and on weekends.
+- Do experimental things for free.
+- Optimize for skills, not pay grade.
 
