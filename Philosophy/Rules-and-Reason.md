@@ -33,8 +33,8 @@
 
 # Technology 
 - Computers are difficult and struggling with technology means you're learning.
-- Coding languages are for building things. The more things you build, the more they will make sense.
-- Know a few languages well and you can join the conversation.
+- Programming languages are for building things. The more things you build, the more programming languages will make sense.
+- Know a few programming languages well and you can join the conversation.
 - All technologists are both designers and developers. 
 - Social media is a form of gambling. Treat it with caution.
 - Running away from technology is pointless. Build something better on top of existing technology.
