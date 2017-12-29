@@ -12,7 +12,7 @@
 - Make conversation with everyone.
 - Don't categorize or overthink friendship.
 - If someone contacts you, always respond.
-- Friends create meaning in life. Every interaction is permanant.
+- Friends create meaning in life. Every interaction is permanent.
 - Make sober time with friends to discuss difficult topics.
 - It's nearly impossible to have more than five good friends at any time.
 
