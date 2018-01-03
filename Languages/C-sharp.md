@@ -8,6 +8,7 @@ Web resources:
 - https://mva.microsoft.com/en-US/training-courses/programming-in-c-jump-start-14254?l=MqbQvzSfB_1500115888
 - https://blogs.msdn.microsoft.com/dboyle/2013/03/27/exam-70-483-programming-in-c-5-0/
 - https://skillvalue.com
+- https://github.com/quozd/awesome-dotnet
 
 ------------------------------
 Overview:
