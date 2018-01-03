@@ -11,7 +11,7 @@ Web resources:
 - https://github.com/quozd/awesome-dotnet
 
 ------------------------------
-Overview:
+Overview: Object Oriented Programming, Managed Languages and C#
 ------------------------------
 
 Managed language: depend on services provided by a runtime environment.
@@ -127,7 +127,7 @@ Dynamics:
 
 
 ------------------------------
-SECTION 2:
+SECTION 2: Constructing Complex Types - Object Interfacess and Inheritance
 ------------------------------
 
 ------------------------------
@@ -159,6 +159,80 @@ Classes can optionally be declared as:
 
 Example:
 public class Animal {
+}
+
+------------------------------
+SECTION 3: Controlling Progammatic Flow - Manipulating Types and Strings
+------------------------------
+Selection Statements: If
+- Selection statements evaluate Boolean expressions and direct execution
+- If statements can be nested within other if statements.
+
+//use braces to encapsulate blocks
+if (value == 1)
+{
+    Console.WriteLine("One");
+    DoSomethingElse();
+}
+// else if is used to exit the Selection Statement
+else if (value == 2)
+{
+    Console.WriteLine("Two");
+    DoSomethingElse();
+}
+else
+{
+    Console.WriteLine("Other");
+    DoSomethingElse();
+}
+
+---
+Selection Statements :ternary
+- The ternary or conditional operator can be used as if statement shorthand.
+if (value == 1)
+{
+    Console.WriteLine("One");
+}
+else
+{
+    Console.WriteLine("Not One");
+}
+
+//ternary
+Console.WriteLine(value == 1 ? "One" : "Not One");
+---
+
+Iteration Statements: while, do-while
+- while and do-while statements execute a body of code if the expression evaluates to true.
+-- **while** evalutes the expression before executing the body, so the body may execute 0 or more times.
+-- **do-while** evaluates the expression after the first execution of the body, so the body executes at least once.
+
+var loopCounter = 0;
+while (loopCounter > 0)
+{
+    Console.WriteLine("This will not execute!");
+}
+
+do
+{
+    Console.WriteLine("This will execute once!");
+} while (loopCounter > 0);
+
+---
+
+Iteration Statements: For
+- *for loops* are similar to *while loops*
+- *for loops* include clause that execute before the loop begins and after every iteration:
+-- Initialization clause - typically used to initialize one or more loop variables
+-- Iteration clause - typically used to update the loop variable
+
+var string = new[]
+    {
+        "String 1", "String 2", "String 3
+    };
+for (int i=0; i < strings.Length; i++)
+{
+    Console.WriteLine(strings[i]);
 }
 
 -------------------------------
