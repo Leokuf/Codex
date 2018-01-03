@@ -358,6 +358,7 @@ Disposable Object
 -- Use the advanced pattern in most cases.
 
 ~~~~
+
 interface IDisposable
 {
     void Dispose();
@@ -370,6 +371,7 @@ public class Demo : IDisposable
         // release resources
     }
 }
+
 ~~~~
 
 Advanced Dispose Pattern
@@ -399,6 +401,154 @@ public class AdvancedDemo : IDisposable
     }
 }
 ~~~~
+
+Dispose versus Close verus Stop
+Close:
+- May be functionally the same as Dispose
+- May be a subset of the Dispose functionality
+A closed object may be reopened:
+- IDbConnection
+Stop is similar to Close:
+- May be restarted.
+- Timer, etc.
+
+------------------------------
+SECTION 5: Advanced C#, Type and Value Validation - Encryption Techniques
+------------------------------
+Data Validation: Data validation is testing values introduced to an app (via a service, file, or data entry) against expected values and ranges.
+- Prevent overflow
+- Prevent incorrect results
+- Prevent undesirable side-effects
+- Provide guidance to systems or users
+- Prevent security intrusions 
+
+Data Validation (023)
+- The compiler validates that the object ype is correct
+-- It does not validate the object's value
+- Debug / Trace Assert() methods alert the developer or the user.
+- Raise an Exception:
+-- System.ArgumentException
+-- System.ArgumentOutofRangeException
+-- System.ArgumentNullException
+
+~~~~
+public override void SetName(string value)
+{
+    //validate empty
+    if (string.IsNullOrWhiteSpace(value))
+        throw new ArgumentNullException("value");
+
+    //validate conflict
+    if (value == this.Name)
+        throw new ArgumentException("value is duplicate");
+    
+    //validate size
+    if (value.Length > 10)
+        throw new ArgumentException("value is too long");
+    
+    this.Name = value;
+}
+~~~~
+
+~~~~
+Animal cat = new Cat();
+Animal dog = new Dog();
+
+if (cat is Dog)
+    throw new NotSupportedException("Dogs only!");
+
+if (cat == dog)
+    throw new Exception("Not the same");
+
+if (cat.Equals(dog))
+    throw new Exception("Not equal");
+~~~~
+
+Data Contracts (023)
+
+"Design by Contract" from the Eiffel programming language. (https://archive.eiffel.com/doc/online/eiffel50/intro/language/invitation-07.html)
+Code contracts are a unified sytem that can replace all other approaches to data validation.
+Code contracts have:
+- Preconditions(Requires)
+- Post-conditions(Ensures)
+A contract assertion can be "evaluated" statically
+A contract assertion can be "enforced" at runtime
+
+~~~~
+public abstract class Animal
+{
+    public string Name { get; protected set; }
+    public abstract void SetName (stringvalue);
+}
+
+public class Cat : Animal
+{
+    public override void SetName(string value)
+    {
+        //validate empty
+        if (string.IsNullOrWhiteSpace(value))
+            throw new ArgumentNullException("value");
+
+        //validate conflict
+        if (value == this.Name)
+            throw new ArgumentException("value is duplicate");
+
+        //validate size
+        if (value.Length > 10)
+            throw new ArgumentException("value is too long");
+
+        this.Name = value;
+    }
+}
+
+public class Dog : Animal
+{
+    public string Name { get; protected set; }
+    public void SetName(string value)
+    {
+        //validate input
+        Contract.Requires(!string.IsNullOrWhiteSpace(value), "value is empty");
+        this.Name = value;
+    }
+
+    public string GetName()
+    {
+        //validate output
+        Contract.Ensures(!string.IsNullOrWhiteSpace(Contract.Result<string>()));
+        return this.Name;
+    }
+}
+~~~~
+
+Unhandled Exception (022)
+
+An exception thrown by your code or the runtime outside of a try block.
+The runtime handles all exceptions protecting the system, not your app.
+- Causes instability
+- Causes termination
+Try / Catch
+Try / Catch / Finally 
+Try / Finally
+
+~~~~
+try
+{
+    Process();
+}
+catch (DivideByZeroException ex)
+{
+    // specific exception
+}
+catch (Exception ex)
+{
+    // generic exception
+}
+finally
+{
+    // this will always occur
+}
+~~~~
+
 -------------------------------
 static void Main(string[] args)
 -------------------------------
@@ -458,3 +608,4 @@ namespace ConsoleApplication1
 ------------------------------
 End Program
 ------------------------------
+
