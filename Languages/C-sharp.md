@@ -5,6 +5,7 @@ SECTION 1
 ------------------------------
 Web resources:
 ------------------------------
+- Programming Guide (Official): https://docs.microsoft.com/en-us/dotnet/csharp/index
 - https://mva.microsoft.com/en-US/training-courses/programming-in-c-jump-start-14254?l=MqbQvzSfB_1500115888
 - https://blogs.msdn.microsoft.com/dboyle/2013/03/27/exam-70-483-programming-in-c-5-0/
 - https://skillvalue.com
@@ -74,7 +75,7 @@ Keywords are compiler reserved words:
 ------------------------------
 Example Syntax:
 ------------------------------
-
+~~~~
 public class Lion()
 {
     public string Sound {get; set;}
@@ -82,7 +83,7 @@ public class Lion()
         Console.WriteLine(Sound);
     }	
 }
-
+~~~~
 ------------------------------
 Code Decoration:
 ------------------------------
@@ -158,8 +159,10 @@ Classes can optionally be declared as:
 -- sealed -cannot be inherited from
 
 Example:
+~~~~
 public class Animal {
 }
+~~~~
 
 ------------------------------
 SECTION 3: Controlling Progammatic Flow - Manipulating Types and Strings
@@ -169,6 +172,7 @@ Selection Statements: If
 - If statements can be nested within other if statements.
 
 //use braces to encapsulate blocks
+~~~~
 if (value == 1)
 {
     Console.WriteLine("One");
@@ -185,10 +189,11 @@ else
     Console.WriteLine("Other");
     DoSomethingElse();
 }
-
+~~~~
 ---
 Selection Statements :ternary
 - The ternary or conditional operator can be used as if statement shorthand.
+~~~~
 if (value == 1)
 {
     Console.WriteLine("One");
@@ -200,13 +205,13 @@ else
 
 //ternary
 Console.WriteLine(value == 1 ? "One" : "Not One");
----
+~~~~
 
 Iteration Statements: while, do-while
 - while and do-while statements execute a body of code if the expression evaluates to true.
 -- **while** evalutes the expression before executing the body, so the body may execute 0 or more times.
 -- **do-while** evaluates the expression after the first execution of the body, so the body executes at least once.
-
+~~~~
 var loopCounter = 0;
 while (loopCounter > 0)
 {
@@ -217,7 +222,7 @@ do
 {
     Console.WriteLine("This will execute once!");
 } while (loopCounter > 0);
-
+~~~~
 ---
 
 Iteration Statements: For
@@ -225,7 +230,7 @@ Iteration Statements: For
 - *for loops* include clause that execute before the loop begins and after every iteration:
 -- Initialization clause - typically used to initialize one or more loop variables
 -- Iteration clause - typically used to update the loop variable
-
+~~~~
 var string = new[]
     {
         "String 1", "String 2", "String 3
@@ -234,7 +239,166 @@ for (int i=0; i < strings.Length; i++)
 {
     Console.WriteLine(strings[i]);
 }
+~~~~
 
+------------------------------
+SECTION 4: Code Reflection and Information - Working with Garbage Collection
+------------------------------
+Reflection:
+- Inspects type metadata at runtime
+- The type metadata contains information such as: 
+-- The type Name
+-- The containng Assembly
+-- Constructors
+-- Properties
+-- Methods
+-- Attributes
+- This data can be used to create instances, access values and execute methods dynamically at runtime.
+
+How to get Type data:
+- Two methods
+(1) Staically at compile time
+(2) Dynamically at runtime
+
+~~~~
+var dog = new Dog { NumberOfLegs = 4 };
+
+// At compile time
+Type t1 = typeof (Dog);
+
+// At runtime
+Type t2 = dog.GetType();
+
+// output: Dog
+Console.WriteLine(t2.Name);
+
+// output: After002, Version=1.0.0.0,
+//  Culture=neutral, PublicKeyToken=null
+Console.WriteLine(t2.Assembly);
+~~~~
+
+How to create an instance of a Type:
+- Two methods to dynamically instantiate a type:
+(1) Activator.CreateInstance
+(2) Calling Invoke on a ConstructorInfo object (advanced scenarios)
+	
+~~~~
+var newDog =
+    (Dog)Activator.CreateInstance(typeof(Dog));
+
+var genericDog = 
+    Activator.CreateInstance<Dog>();
+
+// uses default constructor
+// with no defined parameters
+
+var docConstructor =
+    typeof (Dog).GetConstructors()[0];
+
+var advancedDog =
+    (Dog)dogConstructor.Invoke(null);
+~~~~
+
+Accessing a Property
+~~~~
+void Property()
+{
+    var horse = new Animal() { Name = "Ed" };
+    var type = horse.GetType();
+    var property = type.GetProperty("Name");
+    var value = property.GetValue(horse, null);
+    // value == "Ed"
+}
+
+public class Animal
+{
+    public string Name { get; set; }
+}
+~~~~
+
+Invoking a Method
+~~~~
+void Method()
+{
+    var horse = new Animal();
+    var type = horse.GetType();
+    var method = type.GetMethod("Speak");
+    var value = (string)method.Invoke(horse, null);
+    //value == "Hello"
+}
+
+public class Animal
+{
+    public string Speak() { return "Hello"; }
+}
+~~~~
+
+Garbage Collection:
+- Garbage collection is automatic memory managemnt.
+- De-referenced objects (orphans) are not collected immediately but periodically.
+-- Many factors influence Garbage Collection frequency.
+-- Not all orphans are collected at the same time.
+- Garbage Collection is computationally expensive.
+
+Forcing Garbage Collection
+- In most cases, let the Garbage Collector do its thing.
+- For a periodic activity it may make sense to force the collector to run:
+-- Windows Service
+
+~~~~
+GC.Collect();
+GC.WaitForPendingFinalizers();
+GC.Collect();
+~~~~
+
+Disposable Object
+- Some objects need explicit code to release resources.
+- The IDisposable interface marks taht these types implement the Dispose method.
+- The simple dispose pattern works well for simple scenarios and sealed types.
+-- Use the advanced pattern in most cases.
+
+~~~~
+interface IDisposable
+{
+    void Dispose();
+}
+
+public class Demo : IDisposable
+{
+    public void Dispose()
+    {
+        // release resources
+    }
+}
+~~~~
+
+Advanced Dispose Pattern
+- Use for any non-trivial disposable object.
+
+~~~~
+public class AdvancedDemo : IDisposable
+{
+    public void Dispose()
+    {
+        Dispose(true);
+        GC.SuppressFinalize(this);
+    }
+    
+    protected virtual void Dispose(bool disposing)
+    {
+        if (disposing)
+        {
+            //release managed resources
+        }
+        // release unmanaged resources
+    }
+
+    ~Advanced Demo()
+    {
+        Dispose(false);
+    }
+}
+~~~~
 -------------------------------
 static void Main(string[] args)
 -------------------------------
@@ -256,13 +420,15 @@ float - one of the data types used to store numbers which may or may not contain
 ------------------------------
 Variables
 ------------------------------
-
+~~~~
 <visibility> <data type> <name> = <value>; 
 private string name = "Colin McCaleb";
-
+~~~~
 ------------------------------
 Example program:
 ------------------------------
+	
+~~~~
 
 using System;
 
@@ -286,6 +452,8 @@ namespace ConsoleApplication1
         }
     }
 }
+	
+~~~~
 
 ------------------------------
 End Program
