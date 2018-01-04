@@ -46,7 +46,7 @@ C# supports encapsulation via:
 C# & Inheritance:
 ------------------------------
 C# implements Inheritance in two ways:
-1. A class may inherit from a single base class
+1. A class may inherit from a single base class.
 2. A class may implement zero or more Interfaces.
 
 ------------------------------
@@ -60,7 +60,7 @@ Developer Productivity:
 ------------------------------
 Examples:
 - var - simplifies variable definition while retaining strong typing.
-- LINQ - language integrated query
+- LINQ - language integrated query.
 - Lambdas - a further refinement of anonymous methods used extensively in LINQ.
 
 ------------------------------
@@ -96,8 +96,8 @@ Does C# still need comments?
 - Block comments
 - Single line comments
 - XML documentation
--- Can be extracted into separate XML files during compilation
--- Can be used to generate formal documentation
+-- Can be extracted into separate XML files during compilation.
+-- Can be used to generate formal documentation.
 
 ------------------------------
 Anonymous Types:
@@ -122,8 +122,8 @@ The first parameter's type is the type being extended.
 Dynamics:
 ------------------------------
 - Instructs the compiler to ignore type checking at compile-time.
-- Defers type checking until runtime
-- Simplifies interaction with COM interfaces / un-typed, external objects
+- Defers type checking until runtime.
+- Simplifies interaction with COM interfaces / un-typed, external objects.
 
 
 
