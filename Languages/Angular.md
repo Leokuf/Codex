@@ -21,7 +21,7 @@ A pipe takes in data as input and transforms it to a desired output
 
 ## Angular components
 
-`import { Component } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -31,7 +31,7 @@ A pipe takes in data as input and transforms it to a desired output
 
 export class AppComponent {
   title = 'app works!';
-}`
+}
 
 * HTML + CSS + Code = Component
 * Import services
