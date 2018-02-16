@@ -42,5 +42,25 @@ export class AppComponent {
 * .component.ts file is used for component.
 * .component.spec.ts file is used for unit testing.
 
+### Referencing Object
 
+import { Component } from '@angular/core';  
 
+@Component({  
+  selector: 'app-root',
+  template: `  
+  <h1>Howdy!</h1>  
+  <p>{{ myObject.location }}</p>  
+  `,  
+  styleUrls: ['./app.component.css']  
+})  
+
+export class AppComponent {  
+
+  myObject = {  
+    gender: 'male',  
+    age: 27,  
+    location: 'USA'  
+  }  
+
+}
