@@ -193,7 +193,7 @@ import { Component } from '@angular/core';
 
 export class AppComponent {  
 
-  titleClass= 'red-title'
+  titleClass = true
 
 }
 ```
