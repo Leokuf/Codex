@@ -18,3 +18,24 @@ A pipe takes in data as input and transforms it to a desired output
 * Interface: 
 * Enum:
 * Module:
+
+## Angular components
+
+`import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css'];
+})
+
+export class AppComponent {
+  title = 'app works!';
+}`
+
+* HTML + CSS + Code = Component
+* Import services
+* Decorator is anything with an "@" in front of it. 
+* Selector is the "tag" associated with the componetn.
+* templateUrl defines HTML template
+* styleUrls: Define styles
