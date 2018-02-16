@@ -140,3 +140,11 @@ export class AppComponent {
 }
 ```
 
+### Event Binding
+* Sends information from the view to the component class. Opposite from property binding.
+* When you want to capture an event from the view, you wrap the event in question in parenthesis. 
+* List of events that can be used. https://developer.mozilla.org/en-US/docs/Web/Events
+
+
+### Event Binding
+
