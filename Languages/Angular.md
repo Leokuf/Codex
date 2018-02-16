@@ -49,7 +49,7 @@ import { Component } from '@angular/core';
 @Component({  
   selector: 'app-root',
   template: `  
-  <h1>Howdy!</h1>  
+  <p>Howdy!</p>  
   <p>{{ myObject.location }}</p>  
   `,  
   styleUrls: ['./app.component.css']  
