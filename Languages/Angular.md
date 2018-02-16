@@ -90,3 +90,53 @@ export class AppComponent {
 
 }
 ```
+
+## Property Binding
+* Passing data from the component class and setting a value of a given element in a view.
+* Component class -> View
+
+```
+import { Component } from '@angular/core';  
+
+@Component({  
+  selector: 'app-root',
+  template:   
+  <p>Howdy!</p>  
+  
+  //first way
+ <img src = "{{ angularLogo }}">
+ //second way
+ <img [src] = "angularLogo">
+ //third way
+ <img bind-src="angularLogo">
+  ,  
+  styleUrls: ['./app.component.css']  
+})  
+
+export class AppComponent {  
+
+  angularLogo = 'https://angular.io/angular.png'
+
+}
+```
+
+```
+import { Component } from '@angular/core';  
+
+@Component({  
+  selector: 'app-root',
+  template:   
+  <p>Howdy!</p>  
+
+  <button [disabled]="buttonStatus">My Button</button>
+  ,  
+  styleUrls: ['./app.component.css']  
+})  
+
+export class AppComponent {  
+
+  buttonStatus = true;
+
+}
+```
+
