@@ -49,10 +49,10 @@ import { Component } from '@angular/core';
 
 @Component({  
   selector: 'app-root',
-  template:   
+  template: `  
   <p>Howdy!</p>  
   <p>{{ myObject.location }}</p>  
-  ,  
+ ` ,  
   styleUrls: ['./app.component.css']  
 })  
 
@@ -73,14 +73,14 @@ import { Component } from '@angular/core';
 
 @Component({  
   selector: 'app-root',
-  template:   
+  template: `  
   <p>Howdy!</p>  
   
   <div *ngIf="myArr; then tmpl1 else tmpl2"></div>
   
   <ng-template #tmpl1>Truth</ng-template>
   <ng-template #tmpl2>False</ng-template>
-  ,  
+ ` ,  
   styleUrls: ['./app.component.css']  
 })  
 
@@ -100,7 +100,7 @@ import { Component } from '@angular/core';
 
 @Component({  
   selector: 'app-root',
-  template:   
+  template:   `
   <p>Howdy!</p>  
   
   //first way
@@ -109,7 +109,7 @@ import { Component } from '@angular/core';
  <img [src] = "angularLogo">
  //third way
  <img bind-src="angularLogo">
-  ,  
+  `,  
   styleUrls: ['./app.component.css']  
 })  
 
@@ -125,7 +125,7 @@ import { Component } from '@angular/core';
 
 @Component({  
   selector: 'app-root',
-  template:   
+  template:  ` 
   <p>Howdy!</p>  
 
   <button [disabled]="buttonStatus">My Button</button>
@@ -145,6 +145,25 @@ export class AppComponent {
 * When you want to capture an event from the view, you wrap the event in question in parenthesis. 
 * List of events that can be used. https://developer.mozilla.org/en-US/docs/Web/Events
 
+```
+import { Component } from '@angular/core';  
 
-### Event Binding
+@Component({  
+  selector: 'app-root',
+  template: ` 
+    <button (click)="myEvent($event)">My Button</button>
+ ` ,  
+  styleUrls: ['./app.component.css']  
+})  
+
+export class AppComponent {  
+
+  myEvent(event) {
+   console.log(event);
+  }
+
+}
+```
+
+
 
