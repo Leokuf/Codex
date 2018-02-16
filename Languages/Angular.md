@@ -67,7 +67,7 @@ export class AppComponent {
 }
 ```
 
-### Templating True / False Statements
+## Templating True / False Statements
 ```
 import { Component } from '@angular/core';  
 
@@ -140,7 +140,7 @@ export class AppComponent {
 }
 ```
 
-### Event Binding
+## Event Binding
 * Sends information from the view to the component class. Opposite from property binding.
 * When you want to capture an event from the view, you wrap the event in question in parenthesis. 
 * List of events that can be used. https://developer.mozilla.org/en-US/docs/Web/Events
@@ -231,3 +231,24 @@ export class AppComponent {
 }
 ```
 
+## Services
+- A function that allows you to access defined properties and methods.
+- import in app.module file
+- add to providers array in app.module
+
+import { Injectable } from '@angular/core';
+
+@Injectable()
+
+export class DataService {
+
+  constructor() { }
+  cars = [
+    'Ford', 'Chevrolet', 'Buick'
+  ];
+  
+  myData() {
+    return 'This is my data';
+  }
+  
+}
