@@ -197,6 +197,37 @@ export class AppComponent {
 
 }
 ```
+### Style Binding
+* Change style attribute of a given HTML element.
 
+```
+import { Component } from '@angular/core';  
 
+@Component({  
+  selector: 'app-root',
+  template: ` 
+  
+  <h1 [style.color]="titleStyle">Hello!</h1>
+  <h2 [style.color]="titleStyle2 ? 'green' : 'pink'">Hello!</h2>
+  
+ ` ,  
+  styles: [`
+    
+    h1 {
+      text-decoration:underline;
+    }
+    
+    .red-title {
+      color: red;
+    }
+  `]
+})  
+
+export class AppComponent {  
+
+  titleStyle = 'red';
+  titleStyle2 = true;
+
+}
+```
 
