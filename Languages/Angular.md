@@ -20,7 +20,7 @@ A pipe takes in data as input and transforms it to a desired output
 * Module:
 
 ## Angular components
-
+```
 import { Component } from '@angular/core';  
 
 @Component({  
@@ -31,7 +31,8 @@ import { Component } from '@angular/core';
   
 export class AppComponent {  
   title = 'app works!';  
-}  
+} 
+```
 
 * HTML + CSS + Code = Component
 * Import services
