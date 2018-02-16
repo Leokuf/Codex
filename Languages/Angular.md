@@ -43,15 +43,15 @@ export class AppComponent {
 * .component.spec.ts file is used for unit testing.
 
 ### Referencing Object
-
+```
 import { Component } from '@angular/core';  
 
 @Component({  
   selector: 'app-root',
-  template: `  
-  `<p>Howdy!</p>`  
-  `<p>{{ myObject.location }}</p>`  
-  `,  
+  template:   
+  <p>Howdy!</p>  
+  <p>{{ myObject.location }}</p>  
+  ,  
   styleUrls: ['./app.component.css']  
 })  
 
@@ -64,3 +64,4 @@ export class AppComponent {
   }  
 
 }
+```
