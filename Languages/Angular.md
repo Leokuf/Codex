@@ -12,7 +12,7 @@ Directive decorator allows you to mark a class as an Angular directive and provi
 Directives allow you to attach behavior to elements in the DOM..
 * Pipe: 
 A pipe takes in data as input and transforms it to a desired output
-* Service:
+* Service: A function that allows you to access defined properties and methods.
 * Class:
 * Guard:
 * Interface: 
