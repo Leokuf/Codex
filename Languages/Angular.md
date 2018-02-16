@@ -242,12 +242,12 @@ import { Injectable } from '@angular/core';
 @Injectable()
 
 export class DataService {
-
+  //array
   constructor() { }
   cars = [
     'Ford', 'Chevrolet', 'Buick'
   ];
-  
+  //method
   myData() {
     return 'This is my data';
   }
