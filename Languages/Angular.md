@@ -21,7 +21,7 @@ A pipe takes in data as input and transforms it to a desired output
 
 ## Angular components
 
-import { Component } from '@angular/core';
+import { Component } from '@angular/core';  
 
 @Component({
   selector: 'app-root',
@@ -39,3 +39,8 @@ export class AppComponent {
 * Selector is the "tag" associated with the componetn.
 * templateUrl defines HTML template
 * styleUrls: Define styles
+* .component.ts file is used for component.
+* .component.spec.ts file is used for unit testing.
+
+
+
