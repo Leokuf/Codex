@@ -152,6 +152,7 @@ import { Component } from '@angular/core';
   selector: 'app-root',
   template: ` 
     <button (click)="myEvent($event)">My Button</button>
+    <button (mouseenter)="myEvent($event)">My Button</button>
  ` ,  
   styleUrls: ['./app.component.css']  
 })  
