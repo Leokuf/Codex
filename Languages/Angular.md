@@ -236,6 +236,7 @@ export class AppComponent {
 - import in app.module file
 - add to providers array in app.module
 
+```
 import { Injectable } from '@angular/core';
 
 @Injectable()
@@ -252,3 +253,48 @@ export class DataService {
   }
   
 }
+```
+* import into component
+* dependency injection is done through Constructor
+
+```
+import { Component } from '@angular/core';  
+import { DataService } from './data.service';
+
+@Component({  
+  selector: 'app-root',
+  template: ` 
+  
+  <p>{{ someProperty }}</p>
+  
+ ` ,  
+  styles: [`
+    
+    h1 {
+      text-decoration:underline;
+    }
+    
+    .red-title {
+      color: red;
+    }
+  `]
+})  
+
+export class AppComponent {  
+
+  constructor(private dataService:DataService) {
+  
+  }
+  
+  someProperty:string = '';
+  
+  ngOnInit() {
+    console.log(this.dataService.cars);
+    this.someProperty = this.dataService.myData();
+  }
+  
+  titleStyle = 'red';
+  titleStyle2 = true;
+
+}
+```
