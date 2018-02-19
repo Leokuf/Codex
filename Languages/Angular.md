@@ -1,3 +1,4 @@
+* Angular4 overview: https://www.youtube.com/watch?v=KhzGSHNhnbI&t=687s
 * RXJS online book: http://xgrommx.github.io/rx-book/index.html
 * Token Based Authentication: http://mherman.org/blog/2017/01/05/token-based-authentication-with-angular/#.Wm98PqinGHs
 * Typescript Best Practices: https://www.gitbook.com/book/basarat/typescript/details
