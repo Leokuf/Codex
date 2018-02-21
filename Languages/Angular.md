@@ -16,7 +16,7 @@ A pipe takes in data as input and transforms it to a desired output
 * Service: A function that allows you to access defined properties and methods.
 * Class:
 * Guard:
-* Interface: 
+* Interface: https://www.typescriptlang.org/docs/handbook/interfaces.html
 * Enum:
 * Module:
 
