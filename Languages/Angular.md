@@ -20,6 +20,9 @@ A pipe takes in data as input and transforms it to a desired output
 * Enum:
 * Module:
 
+Testing
+* Services Test: https://blog.thoughtram.io/angular/2016/11/28/testing-services-with-http-in-angular-2.html
+
 ## Angular components
 ```
 import { Component } from '@angular/core';  
