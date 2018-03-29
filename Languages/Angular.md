@@ -24,6 +24,7 @@ Testing
 * Services Test: https://blog.thoughtram.io/angular/2016/11/28/testing-services-with-http-in-angular-2.html
 * Services Test (updated): https://offering.solutions/blog/articles/2017/10/02/testing-angular-2-http-service/
 * More Services Testing: https://chariotsolutions.com/blog/post/testing-angular-2-0-x-services-http-jasmine-karma/
+* More Services Testing: https://auth0.com/blog/angular-testing-in-depth-http-services/
 
 ## Angular components
 ```
