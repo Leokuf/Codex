@@ -1,2 +1,2 @@
-# General dotNet 
--  A *mapping class* is used to map a class and it's properties to table and columns. 
+# ASP.NET Core WebAPI
+* General setup and configuration from scratch: https://www.youtube.com/watch?v=aIkpVzqLuhA
