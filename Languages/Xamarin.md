@@ -8,3 +8,4 @@
 - Animations with Lottie:
 -- Video: https://www.youtube.com/watch?v=inGKGQRuHok
 -- GitHub: https://github.com/martijn00/LottieXamarin
+- Flex Layout: https://www.youtube.com/watch?v=Ng3sel_5D_0
