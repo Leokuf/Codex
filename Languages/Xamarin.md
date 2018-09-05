@@ -9,4 +9,4 @@
 -- Video: https://www.youtube.com/watch?v=inGKGQRuHok
 -- GitHub: https://github.com/martijn00/LottieXamarin
 - Flex Layout: https://www.youtube.com/watch?v=Ng3sel_5D_0
-- Pull to Refresh Grid
+- Pull to Refresh Grid: https://documentation.devexpress.com/Xamarin/12291/Grid/Examples/How-to-Implement-Pull-to-Refresh
