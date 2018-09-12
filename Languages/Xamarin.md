@@ -12,3 +12,6 @@
 - Pull to Refresh Grid: https://documentation.devexpress.com/Xamarin/12291/Grid/Examples/How-to-Implement-Pull-to-Refresh
 - Programmatic Scrollable Grid: https://www.youtube.com/watch?v=zQb_wIGigf0
 - Setting Visual States for buttons and UI elements: https://www.youtube.com/watch?v=qhUHbVP5mIQ
+
+# Databases
+- Accessing and working with SQLite: https://developer.xamarin.com/guides/android/data-and-cloud-services/data-access/part-3-using-sqlite-orm/
