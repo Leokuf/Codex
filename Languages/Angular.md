@@ -5,6 +5,7 @@
 * Angular Drag and Drop: https://embed.plnkr.co/UOLION/
 * Angular and ADAL Directory: https://spikesapps.wordpress.com/2017/07/27/securing-an-angular-application-with-azure-ad/
 * Angular Real World App Build: https://auth0.com/blog/real-world-angular-series-part-1/
+* Angular 6 Application Architecture: https://medium.com/@cyrilletuzi/architecture-in-angular-projects-242606567e40
 
 * Component:
 Component decorator allows you to mark a class as an Angular component and provide additional metadata that determines how the component should be processed, instantiated and used at runtime.
