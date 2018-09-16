@@ -20,3 +20,4 @@
 - Programmatic Scrollable Grid: https://www.youtube.com/watch?v=zQb_wIGigf0
 - Setting Visual States for buttons and UI elements: https://www.youtube.com/watch?v=qhUHbVP5mIQ
 - Hamburger Menu + General Nav Architecture: https://xamarinhelp.com/masterdetailpage-navigation-menu-xamarin-forms/
+- Modified datepicker to include Placeholder property: https://code.msdn.microsoft.com/windowsapps/Placeholder-Border-Style-92671541
