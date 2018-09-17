@@ -5,8 +5,8 @@
 - The Stack:  Benjamin H. Bratton
 
 ## Productivity
-Finding Flow: Csikszentmihalyi
+- Finding Flow: Csikszentmihalyi
 
 ## Religion
-Zen Mind, Beginner's Mind: Shunryū Suzuki
+- Zen Mind, Beginner's Mind: Shunryū Suzuki
 
