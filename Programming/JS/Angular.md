@@ -6,6 +6,7 @@
 * Angular and ADAL Directory: https://spikesapps.wordpress.com/2017/07/27/securing-an-angular-application-with-azure-ad/
 * Angular Real World App Build: https://auth0.com/blog/real-world-angular-series-part-1/
 * Angular 6 Application Architecture: https://medium.com/@cyrilletuzi/architecture-in-angular-projects-242606567e40
+* Angular Authentication Using Route Guards: https://medium.com/@ryanchenkie_40935/angular-authentication-using-route-guards-bf7a4ca13ae3
 
 * Component:
 Component decorator allows you to mark a class as an Angular component and provide additional metadata that determines how the component should be processed, instantiated and used at runtime.
