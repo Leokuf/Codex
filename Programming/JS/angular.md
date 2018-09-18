@@ -1,3 +1,4 @@
+# General Angular
 * Angular4 overview: https://www.youtube.com/watch?v=KhzGSHNhnbI&t=687s
 * RXJS online book: http://xgrommx.github.io/rx-book/index.html
 * Token Based Authentication: http://mherman.org/blog/2017/01/05/token-based-authentication-with-angular/#.Wm98PqinGHs
@@ -7,6 +8,7 @@
 * Angular Real World App Build: https://auth0.com/blog/real-world-angular-series-part-1/
 * Angular 6 Application Architecture: https://medium.com/@cyrilletuzi/architecture-in-angular-projects-242606567e40
 * Angular Authentication Using Route Guards: https://medium.com/@ryanchenkie_40935/angular-authentication-using-route-guards-bf7a4ca13ae3
+* Route Guard Build Details: https://scotch.io/courses/routing-angular-2-applications/candeactivate
 
 * Component:
 Component decorator allows you to mark a class as an Angular component and provide additional metadata that determines how the component should be processed, instantiated and used at runtime.
