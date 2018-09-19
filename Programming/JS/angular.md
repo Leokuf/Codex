@@ -9,6 +9,7 @@
 * Angular 6 Application Architecture: https://medium.com/@cyrilletuzi/architecture-in-angular-projects-242606567e40
 * Angular Authentication Using Route Guards: https://medium.com/@ryanchenkie_40935/angular-authentication-using-route-guards-bf7a4ca13ae3
 * Route Guard Build Details: https://scotch.io/courses/routing-angular-2-applications/candeactivate
+* Barebones angular app
 
 * Component:
 Component decorator allows you to mark a class as an Angular component and provide additional metadata that determines how the component should be processed, instantiated and used at runtime.
