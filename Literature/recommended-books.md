@@ -10,7 +10,7 @@ A collection of books that have inspired or shaped me in some capacity.
 - Man and His Symbols - Jung
 - The Birth of Tragedy & The Genealogy of Morals - Nietzsche 
 - The Words - Sartre
-- The Enemy of the Poeple - Ibsen
+- The Enemy of the People - Ibsen
 - Welcome to the Desert of the Real - Žižek
 - A History of Western Philosophy - Russell
 - Bird by Bird - Lamott
