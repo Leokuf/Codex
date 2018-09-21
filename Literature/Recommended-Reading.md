@@ -1,4 +1,5 @@
 # Recommended Reading
+A collection of books that have inspired or shaped me in some capacity.
 
 ## Philosophy
 
