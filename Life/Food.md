@@ -1,4 +1,4 @@
-# Foods to Keep in the Home
+# Foods to keep stocked (Vegan)
 
 ## Grains
 - Sourdough bread
