@@ -4,10 +4,10 @@
 - Sourdough bread
 - Brown Rice
 - Quinoa
+- Pasta
 
 ## Beans, Nuts, Protein
 - Tempeh
-- Coffee
 - Red Beans
 - Black Beans
 - Peanuts
@@ -48,6 +48,7 @@
 - Peanut butter
 - Soy Sauce
 - Olive oil
+- Tomato-based pasta sauce
 
 
 ## Misc
@@ -56,3 +57,5 @@
 - Soy / Almond / Coconut milk
 - Agave nectar
 - Nutritional yeast
+- Protein powder (Pea)
+- Coffee
