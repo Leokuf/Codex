@@ -8,6 +8,7 @@
 - Animations with Lottie:
 -- Video: https://www.youtube.com/watch?v=inGKGQRuHok
 -- GitHub: https://github.com/martijn00/LottieXamarin
+- CRUD Walkthrough w/ SQLite: https://www.codeproject.com/Articles/1097179/SQLite-with-Xamarin-Forms-Step-by-Step-guide
 
 
 # Databases
