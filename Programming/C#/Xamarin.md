@@ -25,3 +25,4 @@
 # Advanced UI
 - Skiasharp Custom Shapes: https://www.youtube.com/watch?v=fF0tzA6wUhA
 - Touch manipulations in Skiasharp: https://docs.microsoft.com/en-us/xamarin/xamarin-forms/user-interface/graphics/skiasharp/transforms/touch
+- Bindable Picker Events: https://forums.xamarin.com/discussion/38952/picker-selectedindexchanged-event
