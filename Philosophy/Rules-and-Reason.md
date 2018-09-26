@@ -7,6 +7,7 @@
 - Moderation is key to everything but moderation is impossible. Seek to avoid extremes instead of seeking moderation.
 - Idolize your elders and critique your peers.
 - With age comes wisdom.
+- Support the things you love, ignore the things you hate.
 
 # Friendship
 - Make conversation with everyone.
