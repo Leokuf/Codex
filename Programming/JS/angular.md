@@ -11,6 +11,8 @@
 * Route Guard Build Details: https://scotch.io/courses/routing-angular-2-applications/candeactivate
 * Barebones angular app
 
+* Complex Guards: https://www.sparkbit.pl/angular-2-route-guards-real-life-example/ 
+
 * Component:
 Component decorator allows you to mark a class as an Angular component and provide additional metadata that determines how the component should be processed, instantiated and used at runtime.
 * Directive:
