@@ -12,6 +12,7 @@
 * Barebones angular app
 
 * Complex Guards: https://www.sparkbit.pl/angular-2-route-guards-real-life-example/ 
+* Route Guards: https://blog.realworldfullstack.io/real-world-angular-part-6-3rs-rules-roles-routes-9e7de5a3ea8e
 
 * Component:
 Component decorator allows you to mark a class as an Angular component and provide additional metadata that determines how the component should be processed, instantiated and used at runtime.
