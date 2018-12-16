@@ -53,5 +53,5 @@ A collection of books that have inspired or shaped me in some capacity.
 - Code: Petzold
 
 ## Cooking
-- Hot Damn and Hell Yeah / The Dirty South Vegan Cookbok - Splint & Mazuz
+- Hot Damn and Hell Yeah / The Dirty South Vegan Cookbook - Splint & Mazuz
 
