@@ -56,6 +56,18 @@ C# & Polymorphism:
 - Objects may methods as virtual; virtual methods may be overridden in a derived type. These are executed instead of the base implementation.
 
 ------------------------------
+Implementing multithreading and asynchronous processing:
+------------------------------
+- A thread can be seen as a virtualized CPU.
+- Using multiple threads can improve responsiveness and enables you to make use of multiple processors.
+- The Thread class can be used if you want to create your own threads explicity. Otherwise, you can use the ThreadPool to queue work and let the runtime handle things.
+- A Task object encapsulates a job that needs to be executed. Tasks are the recommended way to create multithreaded code.
+- The Parallel class can be used to run code in parallel.
+- PLINQ is an extension to LINQ to run queries in parallel.
+- The new async and await operators can be used to write asynchronuos code more easily.
+- Concurrent collections can be used to safely work with data in a multithreaded (concurrent access) environment.
+
+------------------------------
 Developer Productivity:
 ------------------------------
 Examples:
