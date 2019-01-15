@@ -138,7 +138,6 @@ Dynamics:
 - Simplifies interaction with COM interfaces / un-typed, external objects.
 
 
-
 ------------------------------
 SECTION 2: Constructing Complex Types - Object Interfacess and Inheritance
 ------------------------------
@@ -166,9 +165,9 @@ Class
 ------------------------------
 A class defines a reference type (or object).
 Classes can optionally be declared as:
--- static - cannot ever be instantiated
--- abstract - incomplete class; must be completed in a derived class
--- sealed -cannot be inherited from
+- static - cannot ever be instantiated
+- abstract - incomplete class; must be completed in a derived class
+- sealed -cannot be inherited from
 
 Example:
 ~~~~
@@ -268,9 +267,9 @@ Reflection:
 - This data can be used to create instances, access values and execute methods dynamically at runtime.
 
 How to get Type data:
-- Two methods
-(1) Staically at compile time
-(2) Dynamically at runtime
+Two methods:
+1. Statically at compile time
+2. Dynamically at runtime
 
 ~~~~
 var dog = new Dog { NumberOfLegs = 4 };
@@ -564,20 +563,20 @@ finally
 -------------------------------
 static void Main(string[] args)
 -------------------------------
-static: The static keyword tells us that this method should be accessible without instantiating the class.
-void: tells us what the method should return.
-Main: the name of the method.
-arg: a set of arguments can be specified within a set of parentheses.
-string: the type of argument (an array of strings).
+- static: The static keyword tells us that this method should be accessible without instantiating the class.
+- void: tells us what the method should return.
+- Main: the name of the method.
+- arg: a set of arguments can be specified within a set of parentheses.
+- string: the type of argument (an array of strings).
 
 ------------------------------
 Data types
 ------------------------------
-bool - can be false or true
-int - data type for storing numbers without decimals.
-string - used for storing text. C# strings are immutable, ie. they can't be changed after being created. If a string is changed, a new string is returned rather than modifying the original string.
-char - used for storing a single character.
-float - one of the data types used to store numbers which may or may not contain decimals.
+- bool - can be false or true
+- int - data type for storing numbers without decimals.
+- string - used for storing text. C# strings are immutable, ie. they can't be changed after being created. If a string is changed, a new - string is returned rather than modifying the original string.
+- char - used for storing a single character.
+- float - one of the data types used to store numbers which may or may not contain decimals.
 
 ------------------------------
 Variables
