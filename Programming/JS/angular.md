@@ -38,6 +38,9 @@ Testing
 * More Services Testing: https://chariotsolutions.com/blog/post/testing-angular-2-0-x-services-http-jasmine-karma/
 * More Services Testing: https://auth0.com/blog/angular-testing-in-depth-http-services/
 
+Typescript
+* Classes vs Interfaces: https://toddmotto.com/classes-vs-interfaces-in-typescript
+
 ## Angular components
 ```
 import { Component } from '@angular/core';  
