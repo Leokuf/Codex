@@ -2,7 +2,7 @@
 
 This makes 12 servings of Seitan, each with 13g of protein.
 
-Wheat Loaf
+**Wheat Loaf**
 * 2 cups vital wheat gluten
 * 6 tbsp nutritional yeast
 * 1 cub vegetable broth
@@ -10,7 +10,7 @@ Wheat Loaf
 * 2 tbsp olive oil
 * 3 tbsp garlic
 
-Broth
+**Broth**
 * 8 cups vegetable broth
 * 6 cups water
 * 1/2 cup soy sauce
