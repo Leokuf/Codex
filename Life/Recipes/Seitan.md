@@ -1,6 +1,6 @@
 # Recipe for Seitan 
 
-This makes 12 servings of Seitan, each with 13g of protein.
+This makes 12 servings of Seitan, each serving packed with 13g of protein.
 
 **Wheat Loaf**
 * 2 cups vital wheat gluten
