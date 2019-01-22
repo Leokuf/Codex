@@ -1,4 +1,5 @@
 # General Angular
+* Introduction to Reactive Programming: https://gist.github.com/staltz/868e7e9bc2a7b8c1f754
 * Angular4 overview: https://www.youtube.com/watch?v=KhzGSHNhnbI&t=687s
 * RXJS online book: http://xgrommx.github.io/rx-book/index.html
 * Token Based Authentication: http://mherman.org/blog/2017/01/05/token-based-authentication-with-angular/#.Wm98PqinGHs
@@ -9,7 +10,6 @@
 * Angular 6 Application Architecture: https://medium.com/@cyrilletuzi/architecture-in-angular-projects-242606567e40
 * Angular Authentication Using Route Guards: https://medium.com/@ryanchenkie_40935/angular-authentication-using-route-guards-bf7a4ca13ae3
 * Route Guard Build Details: https://scotch.io/courses/routing-angular-2-applications/candeactivate
-* Introduction to Reactive Programming **essential**: https://gist.github.com/staltz/868e7e9bc2a7b8c1f754
 
 * Complex Guards: https://www.sparkbit.pl/angular-2-route-guards-real-life-example/ 
 * Route Guards: https://blog.realworldfullstack.io/real-world-angular-part-6-3rs-rules-roles-routes-9e7de5a3ea8e
