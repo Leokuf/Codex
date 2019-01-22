@@ -8,3 +8,4 @@
 
 # 01.22.19
 * 8:30AM - Smoothie (1.5 scoops protein + 1 scoop creatine + banana) - 30g protein / 300 cal
+* 11:45AM - Korean Miso Seitan w/ broccoli and rice - 30g protein / 600 cal
