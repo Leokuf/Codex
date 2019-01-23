@@ -13,3 +13,7 @@
 * 6:00PM - Tofurkey Sausage in wrap w/ mustard + 12oz steamed asparagus w/ Korean Miso dressing - 40g protein / 500 calories
 * 8:00PM - Honeycrisp Apple - 0g protein/ 80 cal
 * 8:45PM - Spaghetti and meatballs w/ Daiya cheese + steamed spinach - 37g protein / 690 calories
+* 10:30PM - Healthy Donut (Allie made) - 4g protein / 200 calories
+
+# 01.23.19
+* 9:45AM - Smoothie (1.5 scoops protein + 1 scoop creatine + banana) - 30g protein / 300 cal
