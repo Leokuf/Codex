@@ -11,3 +11,5 @@
 * 11:45AM - Korean Miso Seitan w/ broccoli and rice - 30g protein / 600 cal
 * 2:30PM - Clif Mint Chocolate protein bar - 20g protein / 270 cal
 * 6:00PM - Tofurkey Sausage in wrap w/ mustard + 12oz steamed asparagus w/ Korean Miso dressing - 40g protein / 500 calories
+* 8:00PM - Honeycrisp Apple - 0g protein/ 80 cal
+* 8:45PM - Spaghetti and meatballs w/ Daiya cheese + steamed spinach - 37g protein / 690 calories
