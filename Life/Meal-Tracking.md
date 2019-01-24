@@ -19,3 +19,5 @@
 * 9:45AM - Smoothie (1.5 scoops protein + 1 scoop creatine + banana) - 30g protein / 300 cal
 * 11:45AM - Korean Miso Seitan w/ broccoli and rice + apple - 30g protein / 700 cal
 * 2:45PM - Clif Chocolate protein bar - 20g protein / 270 cal
+* 7:30PM - Spaghetti and meatballs w/ Daiya cheese + steamed spinach + broccoli - 37g protein / 690 calories
+* 9:45PM - Healthy Donut (Allie made) + Tofurkey Sausage on Toast w/ Mustard - 32g protein / 520 calories
