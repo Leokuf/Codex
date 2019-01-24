@@ -26,3 +26,4 @@
 * 9:15AM - Smoothie (1.5 scoops protein + 1 scoop creatine + banana) - 30g protein / 300 cal
 * 12:00PM - Korean Miso Seitan w/ broccoli and rice + apple - 30g protein / 700 cal
 * 2:00PM - Clif Chocolate protein bar - 20g protein / 270 cal
+* 3:00PM - Apple - 0g protein / 100 cal
