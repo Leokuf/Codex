@@ -27,3 +27,9 @@
 * 12:00PM - Korean Miso Seitan w/ broccoli and rice + apple - 30g protein / 700 cal
 * 2:00PM - Clif Chocolate protein bar - 20g protein / 270 cal
 * 3:00PM - Apple - 0g protein / 100 cal
+* 5:30PM - Spaghetti and meatballs w/ Daiya cheese + steamed spinach + broccoli - 37g protein / 690 calories
+* 10:00PM - Air Fried Tofu w/ Korean miso sauce and broccoli - 20g protein / 200 calories
+* 10:30PM - Pad Thai Tofu Takeout - 30g protein / 800 calories (estimated)
+
+# 01.25.19
+* 9:30AM - Smoothie (1.5 scoops protein + 1 scoop creatine + banana) - 30g protein / 300 cal
