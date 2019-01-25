@@ -33,3 +33,4 @@
 
 # 01.25.19
 * 9:30AM - Smoothie (1.5 scoops protein + 1 scoop creatine + banana) - 30g protein / 300 cal
+* 12:30PM - Seitan wrap (cooked spinach, two servings seitan, corn, tahini, sriracha) + apple - 40g protein / 600 calories
