@@ -35,5 +35,7 @@
 * 9:30AM - Smoothie (1.5 scoops protein + 1 scoop creatine + banana) - 30g protein / 300 cal
 * 12:30PM - Seitan wrap (cooked spinach, two servings seitan, corn, tahini, sriracha) + apple - 40g protein / 600 calories
 * 2:30PM - Clif Mint Chocolate protein bar - 20g protein / 270 cal
-* 3:30PM - Honeycrisp Apple - 0g protein/ 80 cal
-* 6:00 - Tofurkey Sausage + Spinach on Toast w/ Broccoli & Daiya Cheese - 35g protein 500 cal
+* 3:30PM - Honeycrisp Apple - 0g protein / 80 cal
+* 6:00 - Tofurkey Sausage + Spinach on Rye Toast w/ Broccoli & Daiya Cheese - 35g protein 500 cal
+* 9:00 - Honeycrisp Apple - 0g protein / 80 cal
+* 9:30 - Aldi Soy Chicken Strips Smothered with Daiya Cheese on Toast + Steamed Broccoli & Corn - 40g protein / 500 calories
