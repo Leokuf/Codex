@@ -39,3 +39,10 @@
 * 6:00 - Tofurkey Sausage + Spinach on Rye Toast w/ Broccoli & Daiya Cheese - 35g protein 500 cal
 * 9:00 - Honeycrisp Apple - 0g protein / 80 cal
 * 9:30 - Aldi Soy Chicken Strips Smothered with Daiya Cheese on Toast + Steamed Broccoli & Corn - 40g protein / 500 calories
+
+# 01.26.19
+* 10:30AM - 2 Packs Whole Foods Flax Oatmeal + Soymilk + 1 scoop protein + 1/4 cup frozen berries.
+* 11:00AM - 1 scoop creatine + 2 glasses of water.
+
+## Notes:
+The protein powder I use is Sunwarrior Chocolate: https://sunwarrior.com/products/warrior-blend
