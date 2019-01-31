@@ -43,6 +43,11 @@
 # 01.26.19
 * 10:30AM - 2 Packs Whole Foods Flax Oatmeal + Soymilk + 1 scoop protein + 1/4 cup frozen berries.
 * 11:00AM - 1 scoop creatine + 2 glasses of water.
+* 2:00PM - Clif Chocolate protein bar - 20g protein / 270 cal
+* 6:00 - Tofurkey Sausage + Spinach on Rye Toast w/ Broccoli & Daiya Cheese - 35g protein 500 cal
+
+# 01.27.19
+* Grazed all day and meal prepped.
 
 ## Notes:
 The protein powder I use is Sunwarrior Chocolate: https://sunwarrior.com/products/warrior-blend
