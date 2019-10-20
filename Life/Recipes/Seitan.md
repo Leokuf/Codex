@@ -11,7 +11,7 @@ This makes 12 servings of Seitan, each serving packed with 13g of protein.
 * 3 tbsp garlic
 
 **Broth**
-* 8 cups vegetable broth
+* 7 cups vegetable broth
 * 6 cups water
 * 1/2 cup soy sauce
 
