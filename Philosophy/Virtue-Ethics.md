@@ -4,6 +4,8 @@
 Focusing on being a good person, and you will do good things.
 
 - Courage: The golden mean between cowardice (deficiency), and recklessness (excess).
+- Don't study virtue for the sake of studying virtue. Study it in order to improve. 
+* "We are not studying in order to know what virtue is, but to become good, for otherwise there would be no profit in it." - Aristotle
 
 
 ## Aristotle's Virtues:
@@ -19,3 +21,5 @@ Focusing on being a good person, and you will do good things.
 10. Wit – sense of humor – meaninglessness and absurdity  
 11. Friendship – camaraderie and companionship
 12. Justice – impartiality, evenhandedness and fairness 
+
+
