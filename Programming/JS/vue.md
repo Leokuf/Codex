@@ -1,1 +1,2 @@
-Vue + Electron Data Store: https://alligator.io/vuejs/vue-electron/
+- Vue + Electron Data Store: https://alligator.io/vuejs/vue-electron/
+- Vue Global Event Bus: https://alligator.io/vuejs/global-event-bus/
