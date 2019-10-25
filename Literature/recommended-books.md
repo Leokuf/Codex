@@ -32,6 +32,8 @@ A collection of books that have inspired or shaped me in some capacity.
 - Finding Flow - Csikszentmihalyi
 - Deep Work: Rules for Focused Success in a Distracted World - Newport
 - The Shallows: What the Internet Is Doing to Our Brains - Carr
+- Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones - Clear
+- Digital Minimalism: Choosing a Focused Life in a Noisy World - Newport
 
 ## Religion / Spirituality
 - Zen Mind, Beginner's Mind - Suzuki
