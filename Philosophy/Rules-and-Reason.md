@@ -21,16 +21,16 @@
 - Elevate the stories of the exiles.
 - Be suspicious of people with many followers and few friends.
 - Don't use social movements to gain status.
-- Social circles based on trends (ex: music) tend to self-destruct.
+- Social circles based on trends (ex: music, design, gaming) tend to self-destruct.
 - When someone strikes you, turn the other cheek. Resisting evil creates more of it.
 - Sophists try to tell you life is easy if you follow their path. Life is never easy.
 
 # Relationships
-- Avoid polyamory and any movements of this sort.
 - Don't turn your partner into your maid or butler.
 - Support your partner in all forms of growth.
 - Make time for yourself.
 - Don't idealize a future. Be there in the present.
+- Think of your relationship as "Us/We" rather than "You/I".
 
 # Technology 
 - Computers are difficult and struggling with technology means you're learning.
@@ -52,3 +52,6 @@
 - Do experimental things for free.
 - Optimize for skills, not pay grade.
 
+# Body
+- The mind and body are intrinsically linked. Treat your body right and your mind state usually improves.
+- Be physical daily, and avoid doing exercises that can't be measured for improvement over time.
