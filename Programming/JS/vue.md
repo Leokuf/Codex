@@ -1,3 +1,4 @@
 - Vue + Electron Data Store: https://alligator.io/vuejs/vue-electron/
 - Vue Global Event Bus: https://alligator.io/vuejs/global-event-bus/
 - Vue State Management w/ Diagrams: https://medium.com/fullstackio/managing-state-in-vue-js-23a0352b1c87
+- Vuex State Management Tutorial: https://www.vuemastery.com/courses/mastering-vuex/intro-to-vuex/
